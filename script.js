@@ -1,3 +1,4 @@
+// step 1: dump entire geojson file in ur JS bc ur a noob:
 var utjson = {
 "type": "FeatureCollection",
 "name": "ut_counties",
@@ -36,9 +37,7 @@ var utjson = {
 }
 
 
-
-// Our D3 code will go here.
-    // Width and Height of the whole visualization
+//when we mouse over a county, highlight it:
   let mouseOver = function(d) {
     d3.selectAll(".NAME")
       .transition()
@@ -50,7 +49,7 @@ var utjson = {
       .style("opacity", .5)
       .style("stroke", "black")
   }
-
+// stop highighting when we're not moused over the county:
   let mouseLeave = function(d) {
     d3.selectAll(".NAME")
       .transition()
@@ -63,15 +62,15 @@ var utjson = {
       .style("stroke", "#333")
   }
 
-
+// get the width of our window, so we can fit the map correctly
   var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
   let middle_x = width;
   let middle_y = height;
 
+// if we click, show some cool text/images, depending on the county:
   let clickEvent = function(d) {
     if (d.properties['NAME'] == 'SALT LAKE') {
-      // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
@@ -188,6 +187,7 @@ var height = window.innerHeight || document.documentElement.clientHeight || docu
       "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
     )
     }
+      // if we click on a county outside the district, hide the text/info:
     else {div.transition().style("opacity", 0)}
   }
 
@@ -206,29 +206,20 @@ var height = window.innerHeight || document.documentElement.clientHeight || docu
   // g will contain geometry elements
   var g = svg.append( "g" ).style('transform', 'translate(5%, 0%)');;
 
+// get the box we'll shove Utah into:
 let box = document.querySelector('.container');
 let projwidth = box.offsetWidth;
 let projheight = box.offsetHeight;
-  console.log(projwidth, projheight, projwidth/projheight)
 //var myProjection = d3.geoAlbers().fitSize([projwidth, projheight*2], utjson);
+
+// you may have to goose this a little:
 var myProjection = d3.geoAlbers().fitHeight(projheight*2, utjson);
-//var myratio = projwidth/projheight
-//if(myratio <= 1.5){
-//    var myProjection = d3.geoAlbers().fitSize([projwidth*2.5, projheight*3.2], utjson);
-//}
-//if(myratio < 1.61 && myratio > 1.5) {
-//    var myProjection = d3.geoAlbers().fitSize([projwidth, projheight*2], utjson);
-//}
-//if(myratio < 1.9 && myratio >= 1.61) {
-//  var myProjection = d3.geoAlbers().fitSize([projwidth*2, projheight*4], utjson);
-//} if(myratio >= 1.9) {
-//    var myProjection = d3.geoAlbers().fitSize([projwidth, projheight*2], utjson);
-//}
   // Create GeoPath function that uses built-in D3 functionality to turn
   // lat/lon coordinates into screen coordinates
   var geoPath = d3.geoPath()
       .projection( myProjection );
 
+// draw the map with colors!
   g.selectAll( "path" )
     .data( utjson.features )
     .enter()
