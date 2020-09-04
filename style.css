@@ -18,6 +18,16 @@ div.tooltip {
     /* pointer-events: none;			 */
 }
 
+.rotate {
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.rotate2 {
+  -webkit-transform:scaleX(-1) rotate(-20deg);
+  transform: scaleX(-1) rotate(-20deg);
+}
+
 #title {
   color: white;
   font: 40px sans-serif;
