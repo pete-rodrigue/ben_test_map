@@ -35,7 +35,7 @@ div.tooltip {
 
 .container {
   height: 300px;                /* Set default height in CSS */
-  max-width: 2000px;            /* Viz can't grow wider than this */
+  max-width: 1200px;            /* Viz can't grow wider than this */
   margin: auto;                 /* Center horizontally */
   background-color: rgb(245, 198, 111);
   /* position:absolute; */
