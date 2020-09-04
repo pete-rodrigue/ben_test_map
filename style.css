@@ -1,5 +1,6 @@
 
-
+/* this is the div with the fun text/images that pops up when
+you click on a county in our district*/
 div.tooltip {
     position: relative;
     text-align: left;
@@ -43,6 +44,10 @@ div.tooltip {
     margin:auto;
 }
 
+/* this is the container that the map goes in
+we use the container because it automatically fits 
+to the screen, depending on the screen size.
+that's what the @media bits do. */
 .container {
   height: 300px;                /* Set default height in CSS */
   max-width: 2000px;            /* Viz can't grow wider than this */
