@@ -1,0 +1,54 @@
+
+
+div.tooltip {
+    position: relative;
+    text-align: left;
+    width: auto;
+    height: auto;
+    max-width: 1165px;
+    max-height: 1000px;
+    padding: 20px;
+    margin: auto;
+    font: 18px sans-serif;
+    color: white;
+    background: rgb(0, 41, 94);
+    border: 0px;
+    border-radius: 8px;
+    overflow-y: scroll;
+    /* pointer-events: none;			 */
+}
+
+#title {
+  color: white;
+  font: 40px sans-serif;
+  text-align: center;
+}
+
+#myBackground{
+  background: rgb(0, 41, 94);
+  color: rgb(0, 41, 94);
+}
+
+.g {
+    margin:auto;
+}
+
+.container {
+  height: 300px;                /* Set default height in CSS */
+  max-width: 2000px;            /* Viz can't grow wider than this */
+  margin: auto;                 /* Center horizontally */
+  background-color: rgb(245, 198, 111);
+  /* position:absolute; */
+}
+
+@media (min-width: 600px) {     /* If we get a device screen at least this wide... */
+  .container { height: 400px; } /* Set a taller height since have more screen real estate */
+}
+
+@media (min-width: 900px) {
+  .container { height: 600px; }
+}
+
+@media (min-width: 1200px) {
+    .container { height: 600px; }
+}
