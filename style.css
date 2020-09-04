@@ -14,7 +14,7 @@ div.tooltip {
     background: rgb(0, 41, 94);
     border: 0px;
     border-radius: 8px;
-    overflow-y: auto;
+/*     overflow-y: auto; */
     /* pointer-events: none;			 */
 }
 
@@ -32,6 +32,8 @@ div.tooltip {
 .g {
     margin:auto;
 }
+
+#tooltipImage {align:left}
 
 .container {
   height: 300px;                /* Set default height in CSS */
