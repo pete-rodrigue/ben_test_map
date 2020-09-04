@@ -33,8 +33,6 @@ div.tooltip {
     margin:auto;
 }
 
-#tooltipImage {align:left}
-
 .container {
   height: 300px;                /* Set default height in CSS */
   max-width: 2000px;            /* Viz can't grow wider than this */
