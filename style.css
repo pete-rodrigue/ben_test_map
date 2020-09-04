@@ -14,7 +14,7 @@ div.tooltip {
     background: rgb(0, 41, 94);
     border: 0px;
     border-radius: 8px;
-    overflow-y: scroll;
+/*     overflow-y: scroll; */
     /* pointer-events: none;			 */
 }
 
