@@ -204,7 +204,7 @@ var height = window.innerHeight || document.documentElement.clientHeight || docu
 
   // Append empty placeholder g element to the SVG
   // g will contain geometry elements
-  var g = svg.append( "g" );
+  var g = svg.append( "g" ).style('transform', 'translate(5%, 0%)');;
 
 let box = document.querySelector('.container');
 let projwidth = box.offsetWidth;
