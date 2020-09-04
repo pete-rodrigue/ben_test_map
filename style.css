@@ -18,11 +18,13 @@ div.tooltip {
     /* pointer-events: none;			 */
 }
 
+// this rotates that right arrow a little:
 .rotate {
   -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
 
+// this flips the right arrow, puts it on the left side, and rotates it:
 .rotate2 {
   -webkit-transform:scaleX(-1) rotate(-20deg);
   transform: scaleX(-1) rotate(-20deg);
@@ -39,10 +41,13 @@ div.tooltip {
   color: rgb(0, 41, 94);
 }
 
+//tbh idk if i need this:
 .g {
     margin:auto;
 }
 
+// change the container size based on the screen size:
+// hat tip to Sinclair Target for providing this CSS.
 .container {
   height: 300px;                /* Set default height in CSS */
   max-width: 2000px;            /* Viz can't grow wider than this */
