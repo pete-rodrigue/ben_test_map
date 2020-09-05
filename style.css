@@ -44,6 +44,27 @@ div.tooltip {
     margin:auto;
 }
 
+
+#buttonWrapper {
+  width: 100%;
+  height: 20px;
+  /* border: 1px solid black; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 20px;
+  width: 100px;
+  background-color: #2284e6;
+  border:none;
+  align: right;
+  float: right;
+  margin-left:5px;
+}
+
+
 /* this is the container that the map goes in
 we use the container because it automatically fits 
 to the screen, depending on the screen size.
