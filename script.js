@@ -38,6 +38,24 @@ var utjson = {
 }
 
 
+function MyScrollTo (endPoint, duration) {
+  const distance = endPoint - window.pageYOffset,
+        rate = distance * 4 / duration, // px/4ms
+        interval = setInterval(scrollIncrement, 4); //4ms is minimum interval for browser
+  function scrollIncrement () {
+    if ((window.pageYOffset >= endPoint && rate >= 0) ||
+        (window.pageYOffset <= endPoint && rate <= 0))
+    {
+      clearInterval(interval);
+    } else {
+      //keep in mind that scrollBy doesn't work with decimal pixels < 1 like 0.4px, so
+      //if duration is too big, function won't work. rate must end up being >= 1px
+      window.scrollBy(0, rate);
+    }
+  }
+}
+
+
 // if the person hovers over a county, highlight it:
   let mouseOver = function(d) {
     d3.selectAll(".NAME")
@@ -196,8 +214,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
     
     // if you click on one of our counties, scroll to see the info below.
     if (our_counties.includes(d.properties['NAME'])) {
-        var elmntToView = document.getElementById("myPopup");
-        elmntToView.scrollIntoView(); 
+      var target_element = document.getElementById("myPopup")
+      MyScrollTo(target_element.offsetTop, 240);
     }
   }
 
