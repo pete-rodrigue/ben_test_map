@@ -37,6 +37,38 @@ var utjson = {
 ]
 }
 
+// this will track if someone's clicked on a county yet:
+let first_time = 0
+
+// this will scroll from the map to the info window ther first time
+// a user clicks on a county:
+var smoothScroll = function(elementId) {
+    var MIN_PIXELS_PER_STEP = 16;
+    var MAX_SCROLL_STEPS = 30;
+    var target = document.getElementById(elementId);
+    var scrollContainer = target;
+    do {
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    var targetY = 0;
+    do {
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    var pixelsPerStep = Math.max(MIN_PIXELS_PER_STEP,
+                                 (targetY - scrollContainer.scrollTop) / MAX_SCROLL_STEPS);
+    var stepFunc = function() {
+        scrollContainer.scrollTop =
+            Math.min(targetY, pixelsPerStep + scrollContainer.scrollTop);
+        if (scrollContainer.scrollTop >= targetY) {
+            return;
+        }
+        window.requestAnimationFrame(stepFunc);
+    };
+    window.requestAnimationFrame(stepFunc);
+}
 
 // if the person hovers over a county, highlight it:
   let mouseOver = function(d) {
@@ -192,6 +224,13 @@ var utjson = {
     }
       // close div if person clicks on county outside district:
     else {div.transition().style("opacity", 0)}
+    
+    // if it's your first time clicking on a county, scroll to see the info below.
+    if (first_time === 0) {
+      smoothScroll("myPopup");
+      console.log('first time')
+      first_time = 1;
+    }
   }
 
   // Define the div for the tooltip
