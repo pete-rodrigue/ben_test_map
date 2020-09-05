@@ -229,7 +229,7 @@ var smoothScroll = function(elementId) {
     if (first_time === 0) {
       smoothScroll("myPopup");
       console.log('first time')
-      first_time = 1;
+//       first_time = 1;   // uncomment this to only scroll down on the first click.
     }
   }
 
