@@ -47,7 +47,7 @@ div.tooltip {
 
 #buttonWrapper {
   width: 100%;
-  height: 20px;
+  height: 30px;
   /* border: 1px solid black; */
   /* display: flex; */
   align-items: center;
@@ -55,8 +55,8 @@ div.tooltip {
 }
 
 button {
-  height: 20px;
-  width: 100px;
+  height: 30px;
+  width: 140px;
   background-color: #2284e6;
   border:none;
   align: right;
