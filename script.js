@@ -37,9 +37,6 @@ var utjson = {
 ]
 }
 
-// this will track if someone's clicked on a county yet:
-let first_time = 0
-
 // this will scroll from the map to the info window ther first time
 // a user clicks on a county:
 var smoothScroll = function(elementId) {
@@ -102,6 +99,7 @@ var smoothScroll = function(elementId) {
   let middle_x = width;
   let middle_y = height;
 
+var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 // when we click on a county in our district, show the div w/ the info!
   let clickEvent = function(d) {
@@ -225,11 +223,9 @@ var smoothScroll = function(elementId) {
       // close div if person clicks on county outside district:
     else {div.transition().style("opacity", 0)}
     
-    // if it's your first time clicking on a county, scroll to see the info below.
-    if (first_time === 0) {
+    // if you click on one of our counties, scroll to see the info below.
+    if (our_counties.includes(d.properties['NAME'])) {
       smoothScroll("myPopup");
-      console.log('first time')
-//       first_time = 1;   // uncomment this to only scroll down on the first click.
     }
   }
 
