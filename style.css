@@ -22,11 +22,13 @@ div.tooltip {
 .rotate {
   -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
+  pointer-events: none;
 }
 
 .rotate2 {
   -webkit-transform:scaleX(-1) rotate(-20deg);
   transform: scaleX(-1) rotate(-20deg);
+  pointer-events: none;
 }
 
 #title {
