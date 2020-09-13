@@ -150,26 +150,188 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
-      div.html("Salt Lake County" + "</br></br>" + "<strong>" +
-      'total PPP grants secured:' + "</br>$" +d.properties['total_funding_amount'] + "</br>" +
-      'Total PPP loans secured:' + "</br>$" + d.properties['total_face_value_of_loans'] +
-      "</strong>" +
-      "</br></br>" +
-      "<figure><img src='babyfaceBen.jpg' alt='missing'><figcaption>As a boy, Ben was elected Mayor of Salt Lake County.</figcaption></figure>" +
-      "</br></br>" +
-      "Ben knows Salt Lake County well--he became mayor as a mere child (see photo above)." +
-      "As mayor, he spearheaded 'housing first', which became a national model to address homelessness." + "</br>" +
-      "Here's an abbreviated list of things Ben's done for Salt Lake in Congress:" + "</br></br>" +
-      "<strong style='font-size:24px'>Paycheck Protection Program grants and loans</strong>" + "</br></br>" +
-      "COVID sucks, and it's making it hard to run a business--even a popular one!" +
-      "Ben helped get emergency funding to keep places like Big Daddy's Pizza in business. I love that place!" +
-      "The program is also helping great places like Definitive Solar and Speedy Forklift Repairs keep their employees." +
-      "</br></br>" +
-      "<strong style='font-size:24px'>Your neighbor's stories</strong>" + "</br></br>" +
-      "Ben helped Bob get the Veteran's benefits he earned during his service in Vietnam." + "</br></br>" +
-      "Ben helped Sally finish her class project." + "</br></br>" +
-      "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
-    )
+      div.html("<h1 id=’countyNameCard’>Salt Lake</h1>
+
+<h2 id=’sectionTitle’>Bringing your tax dollars home</h2>
+<br>
+FY2020 Funding: $2,042,237,829
+<br>
+FY2020 Loans: $2,219,664,066
+<br>
+
+<table border=1 style="border-collapse: collapse;">
+<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>
+  <tr> <td> SOCIAL SECURITY ADMINISTRATION (SSA) </td> <td> $1,269,076,411 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF EDUCATION (ED) </td> <td> $513,199,845 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF TRANSPORTATION (DOT) </td> <td> $122,840,446 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $44,975,328 </td> <td> $1,778,625,321 </td> </tr>
+  <tr> <td> DEPARTMENT OF HEALTH AND HUMAN SERVICES (HHS) </td> <td> $40,535,539 </td> <td>  </td> </tr>
+  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $22,296,000 </td> <td> $441,038,745 </td> </tr>
+  <tr> <td> DEPARTMENT OF ENERGY (DOE) </td> <td> $14,430,455 </td> <td>  </td> </tr>
+  <tr> <td> EXECUTIVE OFFICE OF THE PRESIDENT (EOP) </td> <td> $2,957,880 </td> <td>  </td> </tr>
+  <tr> <td> NATIONAL SCIENCE FOUNDATION (NSF) </td> <td> $2,765,993 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF JUSTICE (DOJ) </td> <td> $2,352,153 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF HOMELAND SECURITY (DHS) </td> <td> $2,016,710 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF COMMERCE (DOC) </td> <td> $1,892,000 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF THE INTERIOR (DOI) </td> <td> $1,816,675 </td> <td>  </td> </tr>
+  <tr> <td> ENVIRONMENTAL PROTECTION AGENCY (EPA) </td> <td> $460,000 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF LABOR (DOL) </td> <td> $437,422 </td> <td>  </td> </tr>
+  <tr> <td> FEDERAL COMMUNICATIONS COMMISSION (FCC) </td> <td> $113,503 </td> <td>  </td> </tr>
+  <tr> <td> NATIONAL ENDOWMENT FOR THE ARTS (NEA) </td> <td> $60,000 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF VETERANS AFFAIRS (VA) </td> <td> $7,540 </td> <td>  </td> </tr>
+  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $3,929 </td> <td>  </td> </tr>
+   </table>
+
+<br>
+<h2>Cutting federal red tape</h2>
+<p>&nbsp;</p>
+<p><em>Troy from West Valley City</em></p>
+
+<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>
+
+<p>&ldquo;I really appreciate your help. I spent hours on the phone calling them with no answer, just a recording. The one time they picked up, they said another person would call me back and they didn&rsquo;t. After you contacted them, I got a call from them requesting me to meet with them the next day.&rdquo;</p>
+
+<p>August 24th 2020</p>
+<p><em>&nbsp;</em></p>
+<p><em>Janet from Salt Lake City</em>&nbsp;</p>
+
+<p>Janet&rsquo;s father is a veteran who had stopped receiving the benefits he earned through his service to our nation. Ben stepped in to help fix the issue.</p>
+
+<p>&ldquo;Ben McAdams was very gracious to help my dad with getting the VA benefits. With his help it went very smoothly. Thanks again for your help.&rdquo;</p>
+
+<p>August 17th 2020</p>
+<p>&nbsp;</p>
+<p><em>David from Millcreek</em>&nbsp;</p>
+
+<p>COVID-19 has been tough on all of us, including Utah employees and small business owners. Ben helped David, a local restaurant owner, to access a PPP loan so his staff could stay on payroll and his business could stay open.</p>
+
+<p>&ldquo;Congressman McAdams&rsquo; staff was helpful in providing email updates and written summaries of the various programs available to us. We were able to apply for and receive a PPP loan, which enabled us to keep 100% of our staff employed.&rdquo;</p>
+
+<p>August 10th 2020</p>
+<p>&nbsp;</p>
+<p><em>Marilyn from Murray</em>&nbsp;</p>
+
+<p>Marilyn was in a tough spot after her husband passed away and she wasn't receiving her widow benefit from the Social Security Administration. Ben helped get her money returned to her.</p>
+
+<p>&ldquo;Thank you for your assistance! Guess it took getting your office involved to get the ball rolling on this and I really appreciate it!&rdquo;</p>
+
+<p>August 3rd 2020</p>
+<p>&nbsp;</p>
+<p><em>Douglas from West Jordan</em>&nbsp;</p>
+
+<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>
+
+<p>&ldquo;We went to an RV show and the American Legion booth was there and I told them my story. They said the only person that can do anything is probably Congressman McAdams because he&rsquo;s done a lot for soldiers. It&rsquo;s amazing just to know that&rsquo;s finally legal so I can actually wear it on the uniform, even though I couldn&rsquo;t do it while I was on active duty. It&rsquo;s pretty amazing!&rdquo;</p>
+
+<p>July 27th 2020</p>
+<p>&nbsp;</p>
+<p><em>Christine from Taylorsville</em>&nbsp;</p>
+
+<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>
+
+<p>&ldquo;I was shocked that I received a call back so quickly. I felt that I mattered. When I thought that I was out of options, someone told me to call your office. Best decision ever! My problem was solved within 48 hours. Thank you! In a time like this when the country has been flipped upside down, for him to take the time to call me renews my confidence in local politics.&rdquo;</p>
+
+<p>July 20th 2020</p>
+<p>&nbsp;</p>
+<p><em>Vanessa from West Jordan</em>&nbsp;</p>
+
+<p>The IRS accidentally withheld Vanessa&rsquo;s tax refund--Ben helped her get her money back.</p>
+
+<p>&ldquo;If I didn&rsquo;t have help from this office, I guarantee I would not have received my refund yet. I&rsquo;m appreciative of people willing to go to bat for me when my voice was unable to be heard.&rdquo;</p>
+
+<p>July 6th 2020</p>
+
+<br>
+<h2 id=’sectionTitle’>Listening to Utahns</h2>
+<br>
+<p>Mobile Office Hours - Herriman <br>
+August 15, 2020</p>
+
+<p>Mobile Office Hours - West Valley City<br>
+August 13, 2020</p>
+
+<p>Mobile Office Hours - Kearns<br>
+August 12, 2020</p>
+
+<p>Town Hall Forum: Lowering Prescription Drug Costs - Millcreek<br>
+February 20, 2020</p>
+
+<p>Mobile Office Hours - Sandy<br>
+February 19, 2020</p>
+
+<p>Mobile Office Hours - West Jordan<br>
+February 12, 2020</p>
+
+<p>Town Hall and Community Dialog - The Spice Kitchen<br>
+February 08, 2020</p>
+
+<p>Mobile Office Hours - Taylorsville<br>
+February 5, 2020</p>
+
+<p>Mobile Office Hours - Bluffdale<br>
+January 30, 2020</p>
+
+<p>Town Hall Forum: Air Quality - West Valley City<br>
+January 23, 2020</p>
+
+<p>Mobile Office Hours - Kearns<br>
+December 4, 2019</p>
+
+<p>Mobile Office Hours - Draper<br>
+November 19, 2019</p>
+
+<p>Mobile Office Hours - Holladay<br>
+November 13, 2019</p>
+
+<p>Mobile Office Hours - West Jordan<br>
+October 28, 2019</p>
+
+<p>Mobile Office Hours - Millcreek<br>
+October 16, 2019</p>
+
+<p>Health and Wellness Forum and Town Hall - Midvale<br>
+October 4, 2019</p>
+
+<p>Mobile Office Hours - Sandy<br>
+September 23, 2019</p>
+
+<p>Mobile Office Hours - Murray<br>
+September 18, 2019</p>
+
+<p>Budget Discussion and Town Hall - Sutherland Institute<br>
+September 6, 2019</p>
+
+<p>Open House - Kearns<br>
+August 29, 2019</p>
+
+<p>Creative Arts Public Forum Town Hall - Murray<br>
+August 20, 2019</p>
+
+<p>Mobile Office Hours - South Salt Lake<br>
+August 6, 2019</p>
+
+<p>Summer Forum and Town Hall with the First Unitarian Church - Salt Lake City<br>
+July 28, 2019</p>
+
+<p>Interactive Budget Workshop - Salt Lake City<br>
+May 29, 2019</p>
+
+<p>Town Hall Public Forum on Military and Veterans Issues - Bluffdale<br>
+May 03, 2019</p>
+
+<p>Town Hall Forum: Health Care - Sandy<br>
+April 25, 2019</p>
+
+<p>Meet &amp; Greet at Feldman&rsquo;s Deli - Salt Lake City<br>
+March 19, 2019</p>
+
+<p>Office Open House - West Jordan<br>
+January 26, 2019</p>
+
+<p>Town Hall Meeting - West Valley City<br>
+January 19, 2019<br>
+</p>
+")
   } else if (d.properties['NAME'] == 'JUAB') {
       // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
