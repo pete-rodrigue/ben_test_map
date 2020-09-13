@@ -157,7 +157,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "FY2020 Funding: $2,042,237,829"+
 "<br>"+
 "FY2020 Loans: $2,219,664,066"+
-"<br>"+
+"<br>"+"<br>"+
 
 "<table border=1 style='border-collapse: collapse;'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th> </tr>"+
