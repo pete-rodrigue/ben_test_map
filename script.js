@@ -150,9 +150,9 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
-      div.html("<h1 id=’countyNameCard’>Salt Lake</h1>
+      div.html("<h1 id='countyNameCard'>Salt Lake</h1>
 
-<h2 id=’sectionTitle’>Bringing your tax dollars home</h2>
+<h2 id='sectionTitle'>Bringing your tax dollars home</h2>
 <br>
 FY2020 Funding: $2,042,237,829
 <br>
@@ -242,7 +242,7 @@ FY2020 Loans: $2,219,664,066
 <p>July 6th 2020</p>
 
 <br>
-<h2 id=’sectionTitle’>Listening to Utahns</h2>
+<h2 id='sectionTitle'>Listening to Utahns</h2>
 <br>
 <p>Mobile Office Hours - Herriman <br>
 August 15, 2020</p>
