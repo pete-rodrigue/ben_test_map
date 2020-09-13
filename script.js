@@ -336,93 +336,137 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
-      div.html("Juab County" + "</br></br>" + "<strong>" +
-      'Total PPP grants secured:' + "</br>$" +d.properties['total_funding_amount'] + "</br>" +
-      'Total PPP loans secured:' + "</br>$" + d.properties['total_face_value_of_loans'] +
-      "</strong>" +
-      "</br></br>" +
-      "<figure><img src='nebo.jpg' alt='missing' /><figcaption>Mt. Nebo is in Juab County.</figcaption></figure>" +
-      "</br></br>" +
-      "<p>Juab is a cool county!<p>" + "</br></br>" +
-      "<strong style='font-size:24px'>Paycheck Protection Program grants and loans</strong>" + "</br></br>" +
-      "COVID sucks, and it's making it hard to run a business--even a popular one!" +
-      "Ben helped get emergency funding to keep places like Big Daddy's Pizza in business. I love that place!" +
-      "The program is also helping great places like Definitive Solar and Speedy Forklift Repairs keep their employees." +
-      "</br></br>" +
-      "<strong style='font-size:24px'>Your neighbor's stories</strong>" + "</br></br>" +
-      "Ben helped Bob get the Veteran's benefits he earned during his service in Vietnam." + "</br></br>" +
-      "Ben helped Sally finish her class project." + "</br></br>" +
-      "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
-    )
-  } else if (d.properties['NAME'] == 'SANPETE') {
-      // 'total funding amount: $'+d.properties['total_funding_amount']
-      div.transition()
-                  .duration(200)
-                  .style("opacity", 1);
-      div.html("Sanpete County" + "</br></br>" + "<strong>" +
-      'Total PPP grants secured:' + "</br>$" +d.properties['total_funding_amount'] + "</br>" +
-      'Total PPP loans secured:' + "</br>$" + d.properties['total_face_value_of_loans'] +
-      "</strong>" +
-      "</br></br>" +
-      "<figure><img src='sanpete.jpg' alt='missing' /><figcaption>Sanpete is where it's at.</figcaption></figure>" +
-      "</br></br>" +
-      "<p>Sanpete is a cool county!<p>" + "</br></br>" +
-      "<strong style='font-size:24px'>Paycheck Protection Program grants and loans</strong>" + "</br></br>" +
-      "COVID sucks, and it's making it hard to run a business--even a popular one!" +
-      "Ben helped get emergency funding to keep places like Big Daddy's Pizza in business. I love that place!" +
-      "The program is also helping great places like Definitive Solar and Speedy Forklift Repairs keep their employees." +
-      "</br></br>" +
-      "<strong style='font-size:24px'>Your neighbor's stories</strong>" + "</br></br>" +
-      "Ben helped Bob get the Veteran's benefits he earned during his service in Vietnam." + "</br></br>" +
-      "Ben helped Sally finish her class project." + "</br></br>" +
-      "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
-    )
-  } else if (d.properties['NAME'] == 'WASATCH') {
-      // 'total funding amount: $'+d.properties['total_funding_amount']
-      div.transition()
-                  .duration(200)
-                  .style("opacity", 1);
-      div.html("Wasatch County" + "</br></br>" + "<strong>" +
-      'Total PPP grants secured:' + "</br>$" +d.properties['total_funding_amount'] + "</br>" +
-      'Total PPP loans secured:' + "</br>$" + d.properties['total_face_value_of_loans'] +
-      "</strong>" +
-      "</br></br>" +
-      "<figure><img src='wasatch.jpg' alt='missing' /><figcaption>Wasatch county is pretty neat.</figcaption></figure>" +
-      "</br></br>" +
-      "<p>Wasatch is a cool county!<p>" + "</br></br>" +
-      "<strong style='font-size:24px'>Paycheck Protection Program grants and loans</strong>" + "</br></br>" +
-      "COVID sucks, and it's making it hard to run a business--even a popular one!" +
-      "Ben helped get emergency funding to keep places like Big Daddy's Pizza in business. I love that place!" +
-      "The program is also helping great places like Definitive Solar and Speedy Forklift Repairs keep their employees." +
-      "</br></br>" +
-      "<strong style='font-size:24px'>Your neighbor's stories</strong>" + "</br></br>" +
-      "Ben helped Bob get the Veteran's benefits he earned during his service in Vietnam." + "</br></br>" +
-      "Ben helped Sally finish her class project." + "</br></br>" +
-      "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
-    )
+      div.html("<h1 id='countyNameCard'>Juab</h1>"+
+"<br>"+
+"<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+"<br>"+
+"FY2020 Funding: $25,780,875 "+
+"<br>"+
+"FY2020 Loans: $8,835,586"+
+"<br>"+
+"<table border=1 style='border-collapse: collapse;'>"+
+"<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
+"  <tr> <td> SOCIAL SECURITY ADMINISTRATION (SSA) </td> <td> $23,124,150 </td> <td>  </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $2,463,725 </td> <td> $5,680,686 </td> </tr>"+
+"  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $193,000 </td> <td> $3,154,900 </td> </tr>"+
+"   </table>"+
+
+"<br>"+
+"<h2 id='sectionTitle'>Listening to Utahns</h2>"+
+"<br>"+
+"<p>Mobile Office Hours - Nephi<br>"+
+"February 25, 2020</p>"+
+
+"<p>Mobile Office Hours - Levan<br>"+
+"December 10, 2019</p>"+
+
+"<p>Mobile Office Hours - Mona<br>"+
+"December 10, 2019</p>"+
+
+"<p>Town Hall Meeting - Nephi<br>"+
+"February 20, 2019<br>"+
+"</p>")
   } else if (d.properties['NAME'] == 'UTAH') {
       // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
-      div.html("Utah County" + "</br></br>" + "<strong>" +
-      'Total PPP grants secured:' + "</br>$" +d.properties['total_funding_amount'] + "</br>" +
-      'Total PPP loans secured:' + "</br>$" + d.properties['total_face_value_of_loans'] +
-      "</strong>" +
-      "</br></br>" +
-      "<figure><img src='ben_w_man_in_hat.jpg' alt='missing' /><figcaption>Ben with another person.</figcaption></figure>" +
-      "</br></br>" +
-      "<p>Utah is a cool county!<p>" + "</br></br>" +
-      "<strong style='font-size:24px'>Paycheck Protection Program grants and loans</strong>" + "</br></br>" +
-      "COVID sucks, and it's making it hard to run a business--even a popular one!" +
-      "Ben helped get emergency funding to keep places like Big Daddy's Pizza in business. I love that place!" +
-      "The program is also helping great places like Definitive Solar and Speedy Forklift Repairs keep their employees." +
-      "</br></br>" +
-      "<strong style='font-size:24px'>Your neighbor's stories</strong>" + "</br></br>" +
-      "Ben helped Bob get the Veteran's benefits he earned during his service in Vietnam." + "</br></br>" +
-      "Ben helped Sally finish her class project." + "</br></br>" +
-      "Javier knew he could rely on Ben to navigate the EPA approval process to build his new solar plant."
-    )
+      div.html("<h1 id='countyNameCard'>Utah</h1>"+
+"<br>"+
+
+"<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+"<br>"+
+"FY2020 Funding: $183,335,403"+
+"<br>"+
+"FY2020 Loans: $204,725,542"+
+"<br>"+
+
+"<table border=1 style='border-collapse: collapse;'>"+
+"<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
+"  <tr> <td> SOCIAL SECURITY ADMINISTRATION (SSA) </td> <td> $130,683,913 </td> <td>  </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF VETERANS AFFAIRS (VA) </td> <td> $45,238,205 </td> <td>  </td> </tr>"+
+"  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $3,836,000 </td> <td> $68,216,133 </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF EDUCATION (ED) </td> <td> $2,507,182 </td> <td>  </td> </tr>"+
+"  <tr> <td> INSTITUTE OF MUSEUM AND LIBRARY SERVICES (IMLS) </td> <td> $471,123 </td> <td>  </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $331,864 </td> <td> $136,509,409 </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $267,116 </td> <td>  </td> </tr>"+
+"   </table>"+
+
+"<p id='sectionTitle'>Listening to Utahns<p>"+
+
+"<p>Mobile Office Hours - Spanish Fork<br>"+
+"March 5, 2020</p>"+
+
+"<p>Mobile Office Hours - Springville<br>"+
+"March 5, 2020</p>"+
+
+"<p>Mobile Office Hours - Riverton<br>"+
+"February 26, 2020</p>"+
+
+"<p>Mobile Office Hours - Fairfield<br>"+
+"February 27, 2020</p>"+
+
+"<p>Mobile Office Hours - Payson<br>"+
+"January 16, 2020</p>"+
+
+"<p>Mobile Office Hours - Spanish Fork<br>"+
+"October 17, 2019</p>"+
+
+"<p>Mobile Office Hours - Springville<br>"+
+"October 17, 2019</p>"+
+
+"<p>FinTech Town Hall at Silicon Slopes - Lehi<br>"+
+"October 07, 2019</p>"+
+
+"<p>Mobile Office Hours - Payson<br>"+
+"September 12, 2019</p>"+
+
+"<p>Utah County Open House - Spanish Fork<br>"+
+"September 4, 2019</p>"+
+
+"<p>Meet and Greet - Utah County Health Department<br>"+
+"July 2, 2019</p>"+
+
+"<p>Town Hall Meeting - Lehi<br>"+
+"February 19, 2019<br>"+
+"</p>")
+    } else if (d.properties['NAME'] == 'SANPETE') {
+      div.transition()
+                  .duration(200)
+                  .style("opacity", 1);
+      div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
+"<br>"+
+"<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+"<br>"+
+"FY2020 Funding: $40,411,685"+
+"<br>"+
+"FY2020 Loans: $9,474,271"+
+"<br>"+
+
+"<table border=1 style='border-collapse: collapse'>"+
+"<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
+"  <tr> <td> SOCIAL SECURITY ADMINISTRATION (SSA) </td> <td> $37,450,766 </td> <td>  </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF THE INTERIOR (DOI) </td> <td> $2,505,888 </td> <td>  </td> </tr>"+
+"  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $213,000 </td> <td> $3,964,000 </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $158,097 </td> <td> $5,510,271 </td> </tr>"+
+"  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $65,202 </td> <td>  </td> </tr>"+
+"  <tr> <td> FEDERAL COMMUNICATIONS COMMISSION (FCC) </td> <td> $18,732 </td> <td>  </td> </tr>"+
+"   </table>"+
+
+"<h2 id='sectionTitle'>Listening to Utahns</h2>"+
+"<br>"+
+"<p>Mobile Office Hours - Mount Pleasant<br>"+
+"September 24, 2019</p>"+
+
+"<p>Meet &amp; Greet - Fairview<br>"+
+"September 4, 2019</p>"+
+
+"<p>Meet &amp; Greet - Moroni<br>"+
+"September 4, 2019</p>"+
+
+"<p>Town Hall Meeting - Mount Pleasant<br>"+
+"March 20, 2019<br>"+
+"</p>")
     }
       // close div if person clicks on county outside district:
     else {div.transition().style("opacity", 0)}
