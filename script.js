@@ -154,9 +154,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
-"FY2020 Funding: $2,042,237,829"+
+"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
 "<br>"+
-"FY2020 Loans: $2,219,664,066"+
+"Total Funding: $2,042,237,829"+
+"<br>"+
+"Total Loans: $2,219,664,066"+
 "<br>"+"<br>"+
 
 "<table border=1 style='border-collapse: collapse;'>"+
@@ -339,10 +341,13 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.html("<h1 id='countyNameCard'>Juab</h1>"+
 "<br>"+
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+
 "<br>"+
-"FY2020 Funding: $25,780,875 "+
+"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
+               "<br>"+
+"Total Funding: $25,780,875 "+
 "<br>"+
-"FY2020 Loans: $8,835,586"+
+"Total Loans: $8,835,586"+
 "<br>"+
 "<table border=1 style='border-collapse: collapse;'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
@@ -375,10 +380,13 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<br>"+
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+
 "<br>"+
-"FY2020 Funding: $183,335,403"+
+"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
+               "<br>"+
+"Total Funding: $183,335,403"+
 "<br>"+
-"FY2020 Loans: $204,725,542"+
+"Total Loans: $204,725,542"+
 "<br>"+
 
 "<table border=1 style='border-collapse: collapse;'>"+
@@ -437,10 +445,13 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
 "<br>"+
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
+               
 "<br>"+
-"FY2020 Funding: $40,411,685"+
+"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
 "<br>"+
-"FY2020 Loans: $9,474,271"+
+"Total Funding: $40,411,685"+
+"<br>"+
+"Total Loans: $9,474,271"+
 "<br>"+
 
 "<table border=1 style='border-collapse: collapse'>"+
