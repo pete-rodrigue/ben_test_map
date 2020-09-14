@@ -142,6 +142,8 @@ var EPPZScrollTo =
   let middle_x = width;
   let middle_y = height;
 
+var event_tooltip_text = "<br><p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br><br>"
+
 var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 // when we click on a county in our district, show the div w/ the info!
@@ -155,11 +157,13 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-"<br>"+
+"<br><br>"+
 "Total Funding: $2,042,237,829"+
 "<br>"+
 "Total Loans: $2,219,664,066"+
 "<br>"+"<br>"+
+               "Here's the breakdown by federal agency:" +
+               "<br>"+"<br>"+
 
 "<table border=1 style='border-collapse: collapse;'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th> </tr>"+
@@ -187,6 +191,9 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
 "<p>&nbsp;</p>"+
+               "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
+               "<br>"+"<br>"+
+               
 "<p><em>Troy from West Valley City</em></p>"+
 
 "<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>"+
@@ -246,6 +253,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
+               event_tooltip_text +
+             
 "<p>Mobile Office Hours - Herriman <br>"+
 "August 15, 2020</p>"+
 
@@ -344,21 +353,32 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-               "<br>"+
+               "<br><br>"+
 "Total Funding: $25,780,875 "+
 "<br>"+
 "Total Loans: $8,835,586"+
-"<br>"+
+"<br>"+"<br>"+
+               "Here's the breakdown by federal agency:" +
+               "<br>"+"<br>"+
 "<table border=1 style='border-collapse: collapse;'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
 "  <tr> <td> SOCIAL SECURITY ADMINISTRATION (SSA) </td> <td> $23,124,150 </td> <td>  </td> </tr>"+
 "  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $2,463,725 </td> <td> $5,680,686 </td> </tr>"+
 "  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $193,000 </td> <td> $3,154,900 </td> </tr>"+
 "   </table>"+
+      
+               
+"<br>"+
+"<h2>Cutting federal red tape</h2>"+
+"<p>&nbsp;</p>"+
+               "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
+               "<br>"+"<br>"+
+               
 
 "<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
+               event_tooltip_text +
 "<p>Mobile Office Hours - Nephi<br>"+
 "February 25, 2020</p>"+
 
@@ -387,7 +407,10 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "Total Funding: $183,335,403"+
 "<br>"+
 "Total Loans: $204,725,542"+
-"<br>"+
+
+"<br>"+"<br>"+
+               "Here's the breakdown by federal agency:" +
+               "<br>"+"<br>"+
 
 "<table border=1 style='border-collapse: collapse;'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
@@ -399,8 +422,28 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $331,864 </td> <td> $136,509,409 </td> </tr>"+
 "  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $267,116 </td> <td>  </td> </tr>"+
 "   </table>"+
+               
+               
+"<br>"+
+"<h2>Cutting federal red tape</h2>"+
+"<p>&nbsp;</p>"+
+               "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
+               "<br>"+"<br>"+
+               
+               "<p><em>Military family in Utah County</em>&nbsp;</p>"+
+
+"<p>Due to COVID quarantine, this family on a military base was struggling to get their insulin and other medication. Ben helped them get their medicine.</p>"+
+
+"<p>&ldquo;Ben McAdams is my hero. You guys got it done! We are eternally grateful to your office and staff. Words just aren’t enough here; it was such a rough time, and now that part of the journey is over.&rdquo;</p>"+
+
+"<p>July 13th 2020</p>"+
+              
+
 
 "<p id='sectionTitle'>Listening to Utahns<p>"+
+               "<br>" +
+               
+               event_tooltip_text +
 
 "<p>Mobile Office Hours - Spanish Fork<br>"+
 "March 5, 2020</p>"+
@@ -452,7 +495,10 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "Total Funding: $40,411,685"+
 "<br>"+
 "Total Loans: $9,474,271"+
-"<br>"+
+
+"<br>"+"<br>"+
+               "Here's the breakdown by federal agency:" +
+               "<br>"+"<br>"+
 
 "<table border=1 style='border-collapse: collapse'>"+
 "<tr> <th> Agency </th> <th> Funding </th> <th> Loans </th>  </tr>"+
@@ -463,9 +509,17 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $65,202 </td> <td>  </td> </tr>"+
 "  <tr> <td> FEDERAL COMMUNICATIONS COMMISSION (FCC) </td> <td> $18,732 </td> <td>  </td> </tr>"+
 "   </table>"+
+               
+               
+"<br>"+
+"<h2>Cutting federal red tape</h2>"+
+"<p>&nbsp;</p>"+
+               "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
+               "<br>"+"<br>"+
 
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
+               event_tooltip_text +
 "<p>Mobile Office Hours - Mount Pleasant<br>"+
 "September 24, 2019</p>"+
 
