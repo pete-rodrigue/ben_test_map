@@ -157,6 +157,9 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Salt Lake</h1>"+
+               
+               
+               "<br><img src='images/ben_SLC_1.png'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
@@ -255,6 +258,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>July 6th 2020</p>"+
 
 "<br>"+"<br>"+
+               "<img src='images/ben_SLC_2.png'/>" + "<br>"
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
@@ -353,7 +357,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Juab</h1>"+
-"<br>"+
+"<br><img src='images/ben_J_1.png'/><br>" +
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
 "<br>"+
@@ -402,7 +406,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Utah</h1>"+
-"<br>"+
+
+               "<br><img src='images/ben_U_1.png'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
@@ -443,7 +448,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>July 13th 2020</p>"+
               
-
+"<br><img src='images/ben_U_2.png'/>" +
+               
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
                "<br>" +
@@ -491,7 +497,9 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
-"<br>"+
+               
+               "<br><img src='images/ben_S_1.png'/><br>" +
+               
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
                
 "<br>"+
