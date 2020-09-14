@@ -440,7 +440,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
               
 
 
-"<p id='sectionTitle'>Listening to Utahns<p>"+
+"<h2 id='sectionTitle'>Listening to Utahns</h2>"+
                "<br>" +
                
                event_tooltip_text +
