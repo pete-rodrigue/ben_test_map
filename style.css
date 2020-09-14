@@ -11,8 +11,8 @@ div.tooltip {
     padding: 20px;
     margin: auto;
     font: 18px 'Prompt';
-    color: white;
-    background: rgb(0, 41, 94);
+    color: #013b4f;
+    background: white;
     border: 0px;
     border-radius: 8px;
 /*     overflow-y: auto; */
@@ -32,14 +32,14 @@ div.tooltip {
 }
 
 #title {
-  color: white;
+  color: #013b4f;
   font: 40px 'Prompt';
   text-align: center;
 }
 
 #myBackground{
-  background: rgb(0, 41, 94);
-  color: rgb(0, 41, 94);
+  background: white;
+/*   color: rgb(0, 41, 94); */
 }
 
 .g {
@@ -59,7 +59,7 @@ div.tooltip {
 button {
   height: 50px;
   width: 160px;
-  background-color: #2284e6;
+  background-color: #013b4f;
   border:none;
   align: right;
   float: right;
@@ -79,7 +79,7 @@ that's what the @media bits do. */
   height: 300px;                /* Set default height in CSS */
   max-width: 2000px;            /* Viz can't grow wider than this */
   margin: auto;                 /* Center horizontally */
-  background-color: rgb(245, 198, 111);
+  background-color: white;
   /* position:absolute; */
 }
 
