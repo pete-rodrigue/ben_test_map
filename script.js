@@ -142,7 +142,11 @@ var EPPZScrollTo =
   let middle_x = width;
   let middle_y = height;
 
+
+// constant text elements
 var event_tooltip_text = "<p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br>"
+var data_note = "<br><br><p>*Federal spending data from USAspending.gov.</p>"
+
 
 var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
@@ -341,7 +345,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Town Hall Meeting - West Valley City<br>"+
 "January 19, 2019<br>"+
-"</p>")
+"</p>" +
+              data_note)
   } else if (d.properties['NAME'] == 'JUAB') {
       // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
@@ -390,7 +395,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Town Hall Meeting - Nephi<br>"+
 "February 20, 2019<br>"+
-"</p>")
+"</p>" + data_note)
   } else if (d.properties['NAME'] == 'UTAH') {
       // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
@@ -480,7 +485,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Town Hall Meeting - Lehi<br>"+
 "February 19, 2019<br>"+
-"</p>")
+"</p>" + data_note)
     } else if (d.properties['NAME'] == 'SANPETE') {
       div.transition()
                   .duration(200)
@@ -531,7 +536,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Town Hall Meeting - Mount Pleasant<br>"+
 "March 20, 2019<br>"+
-"</p>")
+"</p>" + data_note)
     }
       // close div if person clicks on county outside district:
     else {div.transition().style("opacity", 0)}
