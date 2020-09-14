@@ -33,7 +33,7 @@ div.tooltip {
 
 #title {
   color: white;
-  font: 40px sans-serif;
+  font: 40px 'Prompt';
   text-align: center;
 }
 
@@ -65,7 +65,7 @@ button {
   float: right;
   margin-left:5px;
   color:white;
-  font-size: 16px;
+  font: 16px 'Prompt';
 }
 
 
