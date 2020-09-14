@@ -250,7 +250,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>July 6th 2020</p>"+
 
-"<br>"+
+"<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
@@ -375,7 +375,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                "<br>"+"<br>"+
                
 
-"<br>"+
+"<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
@@ -439,7 +439,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>July 13th 2020</p>"+
               
 
-
+"<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
                "<br>" +
                
@@ -516,7 +516,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
-
+"<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
