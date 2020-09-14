@@ -142,7 +142,7 @@ var EPPZScrollTo =
   let middle_x = width;
   let middle_y = height;
 
-var event_tooltip_text = "<br><p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br><br>"
+var event_tooltip_text = "<p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br>"
 
 var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
@@ -157,7 +157,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-"<br><br>"+
+"<br>" + "<br>"+
 "Total Funding: $2,042,237,829"+
 "<br>"+
 "Total Loans: $2,219,664,066"+
@@ -353,7 +353,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-               "<br><br>"+
+               "<br>" + "<br>"+
 "Total Funding: $25,780,875 "+
 "<br>"+
 "Total Loans: $8,835,586"+
@@ -403,7 +403,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-               "<br>"+
+               "<br>" + "<br>"+
 "Total Funding: $183,335,403"+
 "<br>"+
 "Total Loans: $204,725,542"+
@@ -491,7 +491,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                
 "<br>"+
 "Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-"<br>"+
+"<br>" + "<br>"+
 "Total Funding: $40,411,685"+
 "<br>"+
 "Total Loans: $9,474,271"+
