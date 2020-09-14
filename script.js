@@ -258,7 +258,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>July 6th 2020</p>"+
 
 "<br>"+"<br>"+
-               "<img src='images/ben_SLC_2.png'/>" + "<br>"
+               "<img src='images/ben_SLC_2.png'/><br>" + 
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
