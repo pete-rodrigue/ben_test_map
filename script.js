@@ -569,7 +569,7 @@ let projwidth = box.offsetWidth;
 let projheight = box.offsetHeight;
   console.log(projwidth, projheight, projwidth/projheight)
 //var myProjection = d3.geoAlbers().fitSize([projwidth, projheight*2], utjson);
-var myProjection = d3.geoAlbers().fitHeight(projheight*2, utjson);
+var myProjection = d3.Mercator().fitHeight(projheight*2, utjson);
 
   // Create GeoPath function that uses built-in D3 functionality to turn
   // lat/lon coordinates into screen coordinates
