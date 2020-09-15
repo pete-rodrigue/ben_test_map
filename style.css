@@ -19,18 +19,6 @@ div.tooltip {
     /* pointer-events: none;			 */
 }
 
-.rotate {
-  -webkit-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-  pointer-events: none;
-}
-
-.rotate2 {
-  -webkit-transform:scaleX(-1) rotate(-20deg);
-  transform: scaleX(-1) rotate(-20deg);
-  pointer-events: none;
-}
-
 #title {
   color: #013b4f;
   font: 40px 'Prompt';
