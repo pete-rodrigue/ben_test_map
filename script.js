@@ -239,10 +239,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>"+
 
 "<p>&ldquo;We went to an RV show and the American Legion booth was there and I told them my story. They said the only person that can do anything is probably Congressman McAdams because he&rsquo;s done a lot for soldiers. It&rsquo;s amazing just to know that&rsquo;s finally legal so I can actually wear it on the uniform, even though I couldn&rsquo;t do it while I was on active duty. It&rsquo;s pretty amazing!&rdquo;</p>"+
-
-               "<br><img src='images/ben_hospital.jpg'/><br>" +
                
 "<p>July 27th 2020</p>"+
+               
+               "<br><img src='images/ben_hospital.jpg'/><br>" +
+               
 "<p>&nbsp;</p>"+
 "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
 
