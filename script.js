@@ -158,16 +158,15 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Salt Lake</h1>"+
                
-               
+// IMAGE               
                "<br><img src='images/ben_SLC_1.png'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
-"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-"<br>" + "<br>"+
-"Total Funding: $2,042,237,829"+
-"<br>"+
-"Total Loans: $2,219,664,066"+
+"Ben works hard to ensure Utahn's tax dollars are put to good use. In fiscal year 2020, "+
+"$2,042,237,829 in federal funding went to Salt Lake County. "+
+"Another $2,219,664,066 in federal loans went to the county, from agencies like the Small Business Administration, "+
+               "to fuel the growth of local businesses like Maize Tacos on Regent Street."+
 "<br>"+"<br>"+
                "Here's the breakdown by federal agency:" +
                "<br>"+"<br>"+
@@ -197,6 +196,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
+               
+               "<br><img src='images/ben_train.jpg'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
@@ -239,6 +240,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>&ldquo;We went to an RV show and the American Legion booth was there and I told them my story. They said the only person that can do anything is probably Congressman McAdams because he&rsquo;s done a lot for soldiers. It&rsquo;s amazing just to know that&rsquo;s finally legal so I can actually wear it on the uniform, even though I couldn&rsquo;t do it while I was on active duty. It&rsquo;s pretty amazing!&rdquo;</p>"+
 
+               "<br><img src='images/ben_hospital.jpg'/><br>" +
+               
 "<p>July 27th 2020</p>"+
 "<p>&nbsp;</p>"+
 "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
@@ -361,11 +364,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
 "<br>"+
-"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-               "<br>" + "<br>"+
-"Total Funding: $25,780,875 "+
-"<br>"+
-"Total Loans: $8,835,586"+
+"In fiscal year 2020, Juab took in $25,780,875 in federal funding and $8,835,586 in federal loans to support local businesses and farmers."+
 "<br>"+"<br>"+
                "Here's the breakdown by federal agency:" +
                "<br>"+"<br>"+
@@ -386,6 +385,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
+               "<br><img src='images/ben_school.png'/><br>" +
 "<br>"+
                event_tooltip_text +
 "<p>Mobile Office Hours - Nephi<br>"+
@@ -401,7 +401,6 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "February 20, 2019<br>"+
 "</p>" + data_note)
   } else if (d.properties['NAME'] == 'UTAH') {
-      // 'total funding amount: $'+d.properties['total_funding_amount']
       div.transition()
                   .duration(200)
                   .style("opacity", 1);
@@ -412,12 +411,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
 "<br>"+
-"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-               "<br>" + "<br>"+
-"Total Funding: $183,335,403"+
-"<br>"+
-"Total Loans: $204,725,542"+
-
+"In fiscal year 2020, $183,335,403 in federal funding and $204,725,542 in federal loans came into Utah County."+
 "<br>"+"<br>"+
                "Here's the breakdown by federal agency:" +
                "<br>"+"<br>"+
@@ -436,6 +430,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
+               
+               "<br><img src='images/ben_tent.png'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
@@ -503,11 +499,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
                
 "<br>"+
-"Ben works hard to ensure Utahn's tax dollars are put to their highest and best use. Here's a summary of where the money went in fiscal year 2020:"+
-"<br>" + "<br>"+
-"Total Funding: $40,411,685"+
-"<br>"+
-"Total Loans: $9,474,271"+
+"In fiscal year 2020, Sanpete County recieved $40,411,685 in federal funding and $9,474,271 in federal loans."+
 
 "<br>"+"<br>"+
                "Here's the breakdown by federal agency:" +
@@ -526,6 +518,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
+               "<br><img src='images/ben_tent.png'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
