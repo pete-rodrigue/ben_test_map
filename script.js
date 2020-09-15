@@ -132,7 +132,7 @@ var EPPZScrollTo =
       .transition()
       .duration(200)
       .style('opacity', 1)
-      .style("stroke", "#333")
+      .style("stroke", "#fff")
   }
 
 // get the screen size:
@@ -593,7 +593,8 @@ var myProjection = d3.geoAlbers().fitHeight(projheight*2, utjson);
       if(d.properties['color']=="#013b4f"){return "#013b4f"}
       if(d.properties['color']=="#ee7327"){return "#ee7327"}
     })
-    .style("stroke", "#333")
+    .style("
+           ", "#fff")
       .attr("class", function(d){ return "Country" } )
       .style("opacity", 1)
       .on("mouseover", mouseOver )
