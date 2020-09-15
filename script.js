@@ -385,7 +385,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
-               "<br><img src='images/ben_school.png'/><br>" +
+               "<br><img src='images/ben_school.jpg'/><br>" +
 "<br>"+
                event_tooltip_text +
 "<p>Mobile Office Hours - Nephi<br>"+
@@ -431,7 +431,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
                
-               "<br><img src='images/ben_tent.png'/><br>" +
+               "<br><img src='images/ben_tent.jpg'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
