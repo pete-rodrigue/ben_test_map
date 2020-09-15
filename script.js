@@ -561,7 +561,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
   // Append empty placeholder g element to the SVG
   // g will contain geometry elements
-  var g = svg.append( "g" ).style('transform', 'translate(5%, 0%)');;
+  var g = svg.append( "g" ).style('transform', 'translate(50%, 50%)');;
 
 // get size of box for map:
 let box = document.querySelector('.container');
