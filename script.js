@@ -590,8 +590,8 @@ var myProjection = d3.geoAlbers().fitHeight(projheight*2, utjson);
     .append( "path" )
     .attr( "d", geoPath )
     .style("fill", function(d){
-      if(d.properties['color']=="#ffffff"){return "#ffffff"}
-      if(d.properties['color']=="#2284e6"){return "#2284e6"}
+      if(d.properties['color']=="#013b4f"){return "#013b4f"}
+      if(d.properties['color']=="#ee7327"){return "#ee7327"}
     })
     .style("stroke", "#333")
       .attr("class", function(d){ return "Country" } )
