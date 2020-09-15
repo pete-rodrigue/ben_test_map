@@ -33,7 +33,8 @@ div.tooltip {
 
 #title {
   color: #013b4f;
-  font: 40px 'Prompt-Bold';
+  font: 40px 'Prompt';
+  font-weight: 700;
   text-align: center;
 }
 
