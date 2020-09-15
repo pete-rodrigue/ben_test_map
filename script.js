@@ -145,7 +145,7 @@ var EPPZScrollTo =
 
 // constant text elements
 var event_tooltip_text = "<p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br>"
-var data_note = "<br><br><p>*Federal spending data from USAspending.gov.</p>"
+var data_note = "<br><br><p>*Federal spending and loans data from USAspending.gov.</p>"
 
 
 var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
