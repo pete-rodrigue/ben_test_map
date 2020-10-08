@@ -206,15 +206,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>"+
 
-"<p>&ldquo;I really appreciate your help. I spent hours on the phone calling them with no answer, just a recording. The one time they picked up, they said another person would call me back and they didn&rsquo;t. After you contacted them, I got a call from them requesting me to meet with them the next day.&rdquo;</p>"+
-
 "<p>August 24th 2020</p>"+
 "<p><em>&nbsp;</em></p>"+
 "<p><em>Janet from Salt Lake City</em>&nbsp;</p>"+
 
-"<p>Janet&rsquo;s father is a veteran who had stopped receiving the benefits he earned through his service to our nation. Ben stepped in to help fix the issue.</p>"+
-
-"<p>&ldquo;Ben McAdams was very gracious to help my dad with getting the VA benefits. With his help it went very smoothly. Thanks again for your help.&rdquo;</p>"+
+"<p>Janet&rsquo;s father is a veteran who unexpectedly stopped receiving the benefits he earned. Ben stepped in to help fix the issue.</p>"+
 
 "<p>August 17th 2020</p>"+
 "<p>&nbsp;</p>"+
@@ -222,24 +218,18 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>COVID-19 has been tough on all of us, including Utah employees and small business owners. Ben helped David, a local restaurant owner, to access a PPP loan so his staff could stay on payroll and his business could stay open.</p>"+
 
-"<p>&ldquo;Congressman McAdams&rsquo; staff was helpful in providing email updates and written summaries of the various programs available to us. We were able to apply for and receive a PPP loan, which enabled us to keep 100% of our staff employed.&rdquo;</p>"+
-
 "<p>August 10th 2020</p>"+
 "<p>&nbsp;</p>"+
 "<p><em>Marilyn from Murray</em>&nbsp;</p>"+
 
 "<p>Marilyn was in a tough spot after her husband passed away and she wasn't receiving her widow benefit from the Social Security Administration. Ben helped get her money returned to her.</p>"+
 
-"<p>&ldquo;Thank you for your assistance! Guess it took getting your office involved to get the ball rolling on this and I really appreciate it!&rdquo;</p>"+
-
 "<p>August 3rd 2020</p>"+
 "<p>&nbsp;</p>"+
 "<p><em>Douglas from West Jordan</em>&nbsp;</p>"+
 
 "<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>"+
-
-"<p>&ldquo;We went to an RV show and the American Legion booth was there and I told them my story. They said the only person that can do anything is probably Congressman McAdams because he&rsquo;s done a lot for soldiers. It&rsquo;s amazing just to know that&rsquo;s finally legal so I can actually wear it on the uniform, even though I couldn&rsquo;t do it while I was on active duty. It&rsquo;s pretty amazing!&rdquo;</p>"+
-               
+   
 "<p>July 27th 2020</p>"+
                
                "<br><img src='images/ben_hospital.jpg'/><br>" +
@@ -249,15 +239,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>"+
 
-"<p>&ldquo;I was shocked that I received a call back so quickly. I felt that I mattered. When I thought that I was out of options, someone told me to call your office. Best decision ever! My problem was solved within 48 hours. Thank you! In a time like this when the country has been flipped upside down, for him to take the time to call me renews my confidence in local politics.&rdquo;</p>"+
-
 "<p>July 20th 2020</p>"+
 "<p>&nbsp;</p>"+
 "<p><em>Vanessa from West Jordan</em>&nbsp;</p>"+
 
 "<p>The IRS accidentally withheld Vanessa&rsquo;s tax refund--Ben helped her get her money back.</p>"+
-
-"<p>&ldquo;If I didn&rsquo;t have help from this office, I guarantee I would not have received my refund yet. I&rsquo;m appreciative of people willing to go to bat for me when my voice was unable to be heard.&rdquo;</p>"+
 
 "<p>July 6th 2020</p>"+
 
@@ -439,9 +425,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                
                "<p><em>Military family in Utah County</em>&nbsp;</p>"+
 
-"<p>Due to COVID quarantine, this family on a military base was struggling to get their insulin and other medication. Ben helped them get their medicine.</p>"+
-
-"<p>&ldquo;Ben McAdams is my hero. You guys got it done! We are eternally grateful to your office and staff. Words just aren’t enough here; it was such a rough time, and now that part of the journey is over.&rdquo;</p>"+
+"<p>This family on a military base had trouble getting their insulin because of COVID restrictions. Ben helped them get their medicine.</p>"+
 
 "<p>July 13th 2020</p>"+
               
