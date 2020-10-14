@@ -35,6 +35,11 @@ div.tooltip {
     margin:auto;
 }
 
+img {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #buttonWrapper {
   width: 100%;

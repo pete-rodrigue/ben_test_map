@@ -194,7 +194,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
       div.html("<h1 id='countyNameCard'>Salt Lake</h1>"+
 
 // IMAGE
-               "<br><img src='images/ben_SLC_1.png'/><br>" +
+               "<br><img src='images/ben_1.jpg'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 "<br>"+
@@ -339,7 +339,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Juab</h1>"+
-"<br><img src='images/ben_J_1.png'/><br>" +
+"<br><img src='images/ben_5.jpg'/><br>" +
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
 "<br>"+
@@ -368,7 +368,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
-               "<br><img src='images/ben_school.jpg'/><br>" +
+               "<br><img src='images/ben_6.jpg'/><br>" +
 "<br>"+
                event_tooltip_text +
 "<p>Mobile Office Hours - Nephi<br>"+
@@ -389,7 +389,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Utah</h1>"+
 
-               "<br><img src='images/ben_U_1.png'/><br>" +
+               "<br><img src='images/ben_7.jpg'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
@@ -414,7 +414,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
 
-               "<br><img src='images/ben_tent.jpg'/><br>" +
+               "<br><img src='images/ben_8.jpg'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
@@ -425,7 +425,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<p>July 13th 2020</p>"+
 
-"<br><img src='images/ben_U_2.png'/>" +
+"<br><img src='images/ben_9.jpg'/>" +
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
@@ -475,7 +475,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
 
-               "<br><img src='images/ben_S_1.png'/><br>" +
+               "<br><img src='images/ben_10.jpg'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
 
@@ -499,7 +499,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
-               "<br><img src='images/ben_meeting.jpg'/><br>" +
+               "<br><img src='images/ben_11.jpg'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
