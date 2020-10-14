@@ -147,6 +147,41 @@ var EPPZScrollTo =
 var event_tooltip_text = "<p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br>"
 var data_note = "<br><br><p>*Federal spending and loans data from USAspending.gov.</p>"
 
+var stories_part_1 = "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
+                     "<br>"+"<br>"+
+
+                     "<p><em>Troy from West Valley City</em></p>"+
+                     "<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>"+
+                     "<p>August 24th 2020</p>"+
+                     "<p><em>&nbsp;</em></p>"+
+
+                     "<p><em>Janet from Salt Lake City</em>&nbsp;</p>"+
+                     "<p>Janet&rsquo;s father is a veteran who unexpectedly stopped receiving the benefits he earned. Ben stepped in to help fix the issue.</p>"+
+                     "<p>August 17th 2020</p>"+
+                     "<p>&nbsp;</p>"+
+
+                     "<p><em>David from Millcreek</em>&nbsp;</p>"+
+                     "<p>COVID-19 has been tough on all of us, including Utah employees and small business owners. Ben helped David, a local restaurant owner, to access a PPP loan so his staff could stay on payroll and his business could stay open.</p>"+
+                     "<p>August 10th 2020</p>"+
+                     "<p>&nbsp;</p>"+
+
+                     "<p><em>Marilyn from Murray</em>&nbsp;</p>"+
+                     "<p>Marilyn was in a tough spot after her husband passed away and she wasn't receiving her widow benefit from the Social Security Administration. Ben helped get her money returned to her.</p>"+
+                     "<p>August 3rd 2020</p>"+
+                     "<p>&nbsp;</p>"+
+
+                     "<p><em>Douglas from West Jordan</em>&nbsp;</p>"+
+                     "<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>"+
+                     "<p>July 27th 2020</p>"
+
+var stories_part_2 = "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
+                     "<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>"+
+                     "<p>July 20th 2020</p>"+
+                     "<p>&nbsp;</p>"+
+
+                     "<p><em>Vanessa from West Jordan</em>&nbsp;</p>"+
+                     "<p>The IRS accidentally withheld Vanessa&rsquo;s tax refund--Ben helped her get her money back.</p>"+
+                     "<p>July 6th 2020</p>"
 
 var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
@@ -157,8 +192,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Salt Lake</h1>"+
-               
-// IMAGE               
+
+// IMAGE
                "<br><img src='images/ben_SLC_1.png'/><br>" +
 
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
@@ -196,63 +231,20 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
-               
+
                "<br><img src='images/ben_train.jpg'/><br>" +
-"<p>&nbsp;</p>"+
-               "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
-               "<br>"+"<br>"+
-               
-"<p><em>Troy from West Valley City</em></p>"+
-
-"<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>"+
-
-"<p>August 24th 2020</p>"+
-"<p><em>&nbsp;</em></p>"+
-"<p><em>Janet from Salt Lake City</em>&nbsp;</p>"+
-
-"<p>Janet&rsquo;s father is a veteran who unexpectedly stopped receiving the benefits he earned. Ben stepped in to help fix the issue.</p>"+
-
-"<p>August 17th 2020</p>"+
-"<p>&nbsp;</p>"+
-"<p><em>David from Millcreek</em>&nbsp;</p>"+
-
-"<p>COVID-19 has been tough on all of us, including Utah employees and small business owners. Ben helped David, a local restaurant owner, to access a PPP loan so his staff could stay on payroll and his business could stay open.</p>"+
-
-"<p>August 10th 2020</p>"+
-"<p>&nbsp;</p>"+
-"<p><em>Marilyn from Murray</em>&nbsp;</p>"+
-
-"<p>Marilyn was in a tough spot after her husband passed away and she wasn't receiving her widow benefit from the Social Security Administration. Ben helped get her money returned to her.</p>"+
-
-"<p>August 3rd 2020</p>"+
-"<p>&nbsp;</p>"+
-"<p><em>Douglas from West Jordan</em>&nbsp;</p>"+
-
-"<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>"+
-   
-"<p>July 27th 2020</p>"+
-               
+               "<p>&nbsp;</p>"+
+               stories_part_1 +
                "<br><img src='images/ben_hospital.jpg'/><br>" +
-               
-"<p>&nbsp;</p>"+
-"<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
-
-"<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>"+
-
-"<p>July 20th 2020</p>"+
-"<p>&nbsp;</p>"+
-"<p><em>Vanessa from West Jordan</em>&nbsp;</p>"+
-
-"<p>The IRS accidentally withheld Vanessa&rsquo;s tax refund--Ben helped her get her money back.</p>"+
-
-"<p>July 6th 2020</p>"+
+               "<p>&nbsp;</p>"+
+               stories_part_2 +
 
 "<br>"+"<br>"+
-               "<img src='images/ben_SLC_2.png'/><br>" + 
+               "<img src='images/ben_SLC_2.png'/><br>" +
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
-             
+
 "<p>Mobile Office Hours - Herriman <br>"+
 "August 15, 2020</p>"+
 
@@ -361,14 +353,18 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $2,463,725 </td> <td> $5,680,686 </td> </tr>"+
 "  <tr> <td> SMALL BUSINESS ADMINISTRATION (SBA) </td> <td> $193,000 </td> <td> $3,154,900 </td> </tr>"+
 "   </table>"+
-      
-               
+
+
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
-               
+               stories_part_1 +
+               "<br><img src='images/ben_hospital.jpg'/><br>" +
+               "<p>&nbsp;</p>"+
+               stories_part_2+
+
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
@@ -413,28 +409,28 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "  <tr> <td> DEPARTMENT OF AGRICULTURE (USDA) </td> <td> $331,864 </td> <td> $136,509,409 </td> </tr>"+
 "  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $267,116 </td> <td>  </td> </tr>"+
 "   </table>"+
-               
-               
+
+
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
-               
+
                "<br><img src='images/ben_tent.jpg'/><br>" +
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
-               
+
                "<p><em>Military family in Utah County</em>&nbsp;</p>"+
 
 "<p>This family on a military base had trouble getting their insulin because of COVID restrictions. Ben helped them get their medicine.</p>"+
 
 "<p>July 13th 2020</p>"+
-              
+
 "<br><img src='images/ben_U_2.png'/>" +
-               
+
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
                "<br>" +
-               
+
                event_tooltip_text +
 
 "<p>Mobile Office Hours - Spanish Fork<br>"+
@@ -478,11 +474,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
                   .duration(200)
                   .style("opacity", 1);
       div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
-               
+
                "<br><img src='images/ben_S_1.png'/><br>" +
-               
+
 "<h2 id='sectionTitle'>Bringing your tax dollars home</h2>"+
-               
+
 "<br>"+
 "In fiscal year 2020, Sanpete County recieved $40,411,685 in federal funding and $9,474,271 in federal loans."+
 
@@ -499,8 +495,8 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "  <tr> <td> DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT (HUD) </td> <td> $65,202 </td> <td>  </td> </tr>"+
 "  <tr> <td> FEDERAL COMMUNICATIONS COMMISSION (FCC) </td> <td> $18,732 </td> <td>  </td> </tr>"+
 "   </table>"+
-               
-               
+
+
 "<br>"+
 "<h2>Cutting federal red tape</h2>"+
                "<br><img src='images/ben_meeting.jpg'/><br>" +
@@ -526,7 +522,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
     }
       // close div if person clicks on county outside district:
     else {div.transition().style("opacity", 0)}
-    
+
     // if you click on one of our counties, scroll to see the info below.
     if (our_counties.includes(d.properties['NAME'])) {
       EPPZScrollTo.scrollVerticalToElementById('myPopup', 20);
