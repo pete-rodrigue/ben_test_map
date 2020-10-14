@@ -247,10 +247,11 @@ let clickEvent = function(d) {
     "</table>"+
 
     "<br>"+
-    "<h2>Cutting federal red tape</h2>"+
 
     "<br><img src='images/ben_2.jpg'/><br>" +
-    "<br>"+"<br>"+
+    "<br>"+
+    "<h2>Cutting federal red tape</h2>"+
+    "<br>"+
     stories_part_1 +
     "<br><img src='images/ben_3.jpg'/><br>" +
     "<p>&nbsp;</p>"+
@@ -433,10 +434,11 @@ let clickEvent = function(d) {
 
 
     "<br>"+
-    "<h2>Cutting federal red tape</h2>"+
 
     "<br><img src='images/ben_9.jpg'/><br>" +
     "<p>&nbsp;</p>"+
+    "<h2>Cutting federal red tape</h2>"+
+    "<br>"+
     "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
     "<br>"+"<br>"+
     stories_part_1 +
@@ -516,9 +518,10 @@ let clickEvent = function(d) {
 
 
     "<br>"+
-    "<h2>Cutting federal red tape</h2>"+
     "<br><img src='images/ben_12.JPG'/><br>" +
     "<p>&nbsp;</p>"+
+    "<h2>Cutting federal red tape</h2>"+
+    "<br>"+
     "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
     "<br>"+"<br>"+
     stories_part_1 +
