@@ -189,10 +189,11 @@ var stories_part_2 = "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
 "<p>The IRS accidentally withheld Vanessa&rsquo;s tax refund--Ben helped her get her money back.</p>"+
 "<p>July 6th 2020</p>"
 
-var data_note = "<br><br><p>*Federal spending and loans data from USAspending.gov.</p>"
+var data_note = "<br><br><p>*Federal spending and loans data from USAspending.gov. Data based on 'place of performace' of the federal outlay. These totals should be treated as a rough guide." +
+                "A business based in Davis County that completed a road repaving project in Juab County might be included in these totals, for example, while a business in Utah County that completed a project in Nevada might not.</p>"
 
 
-var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
+var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE"]
 
 // when we click on a county in our district, show the div w/ the info!
 let clickEvent = function(d) {
