@@ -146,7 +146,7 @@ let middle_y = height;
 // constant text elements
 var event_tooltip_text = "<p>Ben travels around the district listening to people so he can turn their ideas into laws. Here are a few events he's held (with his many recent virtual events omitted for brevity's sake).</p><br>"
 
-var intro_blurb = "<p>For Ben, 'Representative' is not just a title but a job description." +
+var intro_blurb = "<p>For Ben, 'Representative' is not just a title but a job description. " +
                   "He works tirelessly to help constituents cut federal red tape and has returned $899,397.00 dollars to Utahns, completed over 1,055 casework cases, responded to over 109,212 letters, emails and calls, and has attend over 530 district events.</p><br>"
 
 var stories_part_1 = "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
@@ -201,7 +201,7 @@ let clickEvent = function(d) {
     div.transition()
     .duration(200)
     .style("opacity", 1);
-    div.html("<h1 id='countyNameCard'>Salt Lake</h1>"+
+    div.html("<h1 id='countyNameCard'>Salt Lake County</h1>"+
 
     // IMAGE
     "<br><img src='images/ben_1.jpg'/><br>" +
@@ -349,7 +349,7 @@ let clickEvent = function(d) {
     div.transition()
     .duration(200)
     .style("opacity", 1);
-    div.html("<h1 id='countyNameCard'>Juab</h1>"+
+    div.html("<h1 id='countyNameCard'>Juab County</h1>"+
     "<br><img src='images/ben_5.jpg'/><br>" +
     intro_blurb +
 
@@ -401,7 +401,7 @@ let clickEvent = function(d) {
     div.transition()
     .duration(200)
     .style("opacity", 1);
-    div.html("<h1 id='countyNameCard'>Utah</h1>"+
+    div.html("<h1 id='countyNameCard'>Utah County</h1>"+
 
     "<br><img src='images/ben_8.jpg'/><br>" +
     intro_blurb +
@@ -484,7 +484,7 @@ let clickEvent = function(d) {
     div.transition()
     .duration(200)
     .style("opacity", 1);
-    div.html("<h1 id='countyNameCard'>Sanpete</h1>"+
+    div.html("<h1 id='countyNameCard'>Sanpete County</h1>"+
 
     "<br><img src='images/ben_11.jpg'/><br>" +
     intro_blurb +
