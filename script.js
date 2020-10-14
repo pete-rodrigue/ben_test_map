@@ -172,7 +172,11 @@ var stories_part_1 = "Ben's job is to serve the people of the 4th district. Here
 
                      "<p><em>Douglas from West Jordan</em>&nbsp;</p>"+
                      "<p>Douglas is a Vietnam War veteran; paperwork issues stopped him from receiving his purple heart medal for 50 years. Ben&rsquo;s team contacted the U.S. Army and resolved the issues so he could officially receive his medal.</p>"+
-                     "<p>July 27th 2020</p>"
+                     "<p>July 27th 2020</p>" +
+
+                     "<p><em>Military family in Utah County</em>&nbsp;</p>"+
+                     "<p>This family on a military base had trouble getting their insulin because of COVID restrictions. Ben helped them get their medicine.</p>"+
+                     "<p>July 13th 2020</p>"
 
 var stories_part_2 = "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
                      "<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>"+
@@ -233,7 +237,7 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<h2>Cutting federal red tape</h2>"+
 
                "<br><img src='images/ben_2.jpg'/><br>" +
-               "<p>&nbsp;</p>"+
+               "<br>"+"<br>"+
                stories_part_1 +
                "<br><img src='images/ben_3.jpg'/><br>" +
                "<p>&nbsp;</p>"+
@@ -418,14 +422,10 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
-
-               "<p><em>Military family in Utah County</em>&nbsp;</p>"+
-
-"<p>This family on a military base had trouble getting their insulin because of COVID restrictions. Ben helped them get their medicine.</p>"+
-
-"<p>July 13th 2020</p>"+
-
-"<br><img src='images/ben_10.jpg'/>" +
+               stories_part_1 +
+               "<br><img src='images/ben_10.jpg'/>" +
+               "<p>&nbsp;</p>"+
+               stories_part_2 +
 
 "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
@@ -503,7 +503,11 @@ var our_counties = ["UTAH", "JUAB", "SANPETE", "SALT LAKE", "WASATCH"]
 "<p>&nbsp;</p>"+
                "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
                "<br>"+"<br>"+
-"<br>"+"<br>"+
+               stories_part_1 +
+               "<br><img src='images/ben_13.jpg'/>" +
+               "<p>&nbsp;</p>"+
+               stories_part_2 +
+               "<br>"+"<br>"+
 "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
 "<br>"+
                event_tooltip_text +
