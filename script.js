@@ -181,7 +181,12 @@ var stories_part_1 = "Ben's job is to serve the people of the 4th district. Here
 "<p>This family on a military base had trouble getting their insulin because of COVID restrictions. Ben helped them get their medicine.</p>"+
 "<p>July 13th 2020</p>"
 
-var stories_part_2 = "<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
+var stories_part_2 = "<p><em>Marissa from Lehi</em>&nbsp;</p>"+
+"<p>Marissa needed to schedule an in-person appointment with the Social Secuirty Administration to get an Social Security card for her child, but had run into a bureaucratic roadblock. Ben's office helped her get the card that week.</p>"+
+"<p>October 2020</p>" +
+"<p>&nbsp;</p>"+
+
+"<p><em>Christine from Taylorsville</em>&nbsp;</p>"+
 "<p>Christine was having trouble getting her retirement benefits, so she called the office, and Ben&rsquo;s team got everything sorted out.</p>"+
 "<p>July 20th 2020</p>"+
 "<p>&nbsp;</p>"+
