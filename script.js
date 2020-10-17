@@ -311,6 +311,10 @@ let clickEvent = function(d) {
     "<p>Health and Wellness Forum and Town Hall - Midvale<br>"+
     "October 4, 2019</p>"+
 
+    "<br>" +
+    "<iframe src='https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbenmcadamsutah%2Fvideos%2F615606122654866%2F&show_text=false&width=267' width='267' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe>" +
+    "<br>" +
+
     "<p>Mobile Office Hours - Sandy<br>"+
     "September 23, 2019</p>"+
 
@@ -470,6 +474,10 @@ let clickEvent = function(d) {
     "<p>Mobile Office Hours - Spanish Fork<br>"+
     "October 17, 2019</p>"+
 
+    "<br>" +
+    "<iframe src='https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbenmcadamsutah%2Fvideos%2F3584740348227183%2F&show_text=false&width=267' width='267' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe>" +
+    "<br>" +
+    
     "<p>Mobile Office Hours - Springville<br>"+
     "October 17, 2019</p>"+
 
