@@ -153,7 +153,7 @@ var stories_part_1 = "Ben's job is to serve the people of the 4th district. Here
 "<br>"+"<br>"+
 
 "<p><em>Troy from West Valley City</em></p>"+
-"<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment he needed to get the issue resolved.</p>"+
+"<p>Troy unexpectedly lost his retirement benefits, so Ben set up the appointment Troy needed to get the issue resolved.</p>"+
 "<p>August 24th 2020</p>"+
 "<p><em>&nbsp;</em></p>"+
 
@@ -281,6 +281,10 @@ let clickEvent = function(d) {
     "<p>Mobile Office Hours - West Jordan<br>"+
     "February 12, 2020</p>"+
 
+    "<br>" +
+    "<iframe src='https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbenmcadamsutah%2Fvideos%2F4611566955581274%2F&show_text=false&width=560' width='560' height='314' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe>" +
+    "<br>" +
+    
     "<p>Town Hall and Community Dialog - The Spice Kitchen<br>"+
     "February 08, 2020</p>"+
 
@@ -382,8 +386,6 @@ let clickEvent = function(d) {
     "<br>"+
     "<h2>Cutting federal red tape</h2>"+
     "<p>&nbsp;</p>"+
-    "Ben's job is to serve the people of the 4th district. Here are just a few people Ben and his team have helped:" +
-    "<br>"+"<br>"+
     stories_part_1 +
     "<br><img src='images/ben_6.jpg'/><br>" +
     "<p>&nbsp;</p>"+
@@ -391,9 +393,10 @@ let clickEvent = function(d) {
 
 
     "<br>"+"<br>"+
-    "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
     "<br><img src='images/ben_7.jpg'/><br>" +
     "<br>"+
+    "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
+    "<br>" +
     event_tooltip_text +
     "<p>Mobile Office Hours - Nephi<br>"+
     "February 25, 2020</p>"+
@@ -537,7 +540,6 @@ let clickEvent = function(d) {
     "<p>&nbsp;</p>"+
     stories_part_2 +
     "<br>"+"<br>"+
-    "<iframe src='https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbenmcadamsutah%2Fvideos%2F1753481578152230%2F&show_text=false&width=560' width='560' height='314' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe>"+
     "<h2 id='sectionTitle'>Listening to Utahns</h2>"+
     "<br>"+
     event_tooltip_text +
