@@ -218,7 +218,7 @@ let clickEvent = function(d) {
     "Ben works hard to ensure Utahn's tax dollars are put to good use. In fiscal year 2020, "+
     "$2,042,237,829 in federal funding went to Salt Lake County. "+
     "Another $2,219,664,066 in federal loans went to the county, from agencies like the Small Business Administration, "+
-    "to fuel the growth of local businesses like Maize Tacos on Regent Street."+
+    "to fuel the growth of local businesses."+
     "<br>"+"<br>"+
     "Here's the breakdown by federal agency:" +
     "<br>"+"<br>"+
@@ -477,7 +477,7 @@ let clickEvent = function(d) {
     "<br>" +
     "<iframe src='https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbenmcadamsutah%2Fvideos%2F3584740348227183%2F&show_text=false&width=267' width='267' height='476' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe>" +
     "<br>" +
-    
+
     "<p>Mobile Office Hours - Springville<br>"+
     "October 17, 2019</p>"+
 
